@@ -1,1 +1,0 @@
-# pashastrayt.github.io
