@@ -1,0 +1,355 @@
+.wrapper {
+    background: url('../images/main_circle.svg') no-repeat 0 -60px / 39.69vw 90.5vh;
+}
+
+nav, .preview, .for_dealers, .for_studios, .where_buy {
+    width: 280px;
+}
+
+.nav_bar {
+    display: none;
+}
+
+.nav_bar_m {
+    display: initial;
+}
+
+.logo img {
+    width: 90px;
+}
+
+.preview_text {
+    flex: 1 1 auto;
+    padding: 0 0 40px 0;
+}
+
+h1 {
+    font-size: 23px;
+    line-height: 120%;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+p {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.preview_text p {
+    width: 100%;
+    text-align: center;
+}
+
+.img_curtain img {
+    display: none;
+}
+
+.curtains_link {
+    margin-bottom: 24px;
+}
+
+.curtains_link p {
+    width: 90px;
+    margin-top: 11px;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+}
+
+.curtains_link img {
+    width: 23.09px;
+    height: 5.78px;
+    vertical-align: top;
+    margin-top: 16px;
+}
+
+.roman_curtains {
+    flex: 1 1 auto;
+}
+
+.roman_curtains .img_curtain::before {
+    content: '';
+    display: block;
+    width: 280px;
+    height: 223.76px;
+    background: url(../images/roman_curtains_m.png);
+}
+
+.roman_curtains .curtains_link p {
+    width: 115px;
+    margin: 0;
+}
+
+.roman_curtains .curtains_link img {
+    margin-top: 9px;
+}
+
+.austrian_curtains, .london_curtains, .french_curtains, .straight_curtains {
+    flex: 1 1 50%;
+    margin: 0;
+}
+
+.french_curtains, .straight_curtains {
+    flex: 1 1 calc(50% - 11px);
+    padding-left: 11px;
+}
+
+.austrian_curtains .curtains_link::before {
+    content: '';
+    display: block;
+    width: 128.45px;
+    height: 121.98px;
+    background: url(../images/austrian_curtains_m.png);    
+}
+
+.french_curtains .curtains_link::before {
+    content: '';
+    display: block;
+    width: 128.45px;
+    height: 177.79px;
+    background: url(../images/french_curtains_m.png);    
+}
+
+.london_curtains .curtains_link::before {
+    content: '';
+    display: block;
+    width: 128.45px;
+    height: 121.98px;
+    margin-top: -55px;
+    background: url(../images/london_curtains_m.png);    
+}
+
+.straight_curtains .curtains_link::before {
+    content: '';
+    display: block;
+    width: 128.45px;
+    height: 169.18px;
+    background: url(../images/straight_curtains_m.png);    
+}
+
+.straight_curtains .curtains_link p {
+    width: 108px;
+}
+
+.straight_curtains .curtains_link img {
+    vertical-align: top;
+    margin-left: -6px;
+}
+
+.for_dealers {
+    text-align: initial;
+    padding-top: 48px;
+}
+
+.for_dealers h1 {
+    font-size: 20px;
+    text-align: initial;
+    margin-bottom: 4px;
+}
+
+.our_advantage {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.conditions_for_dealers {
+    flex-flow: row wrap;
+    margin-bottom: 43px;
+}
+
+.conditions_for_dealers div {
+    width: 100%;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+    margin: 0;
+}
+
+.img_conditions {
+    width: 58px;
+    margin-right: 23px;
+}
+
+.conditions_for_dealers div p {
+    margin-top: -30px;
+}
+
+.for_dealers form input {
+    width: calc(280px - 16.55px);
+    height: 46px;
+    padding-left: 16.55px;
+    margin: 0 0 21px 0;
+    font-size: 12px;
+}
+
+.blue_button {
+    width: 280px;
+    height: 46px;
+    font-size: 16px;
+}
+
+.for_studios {
+    margin-top: 66px;
+}
+
+.for_studios h1 {
+    margin: 0;
+    margin-bottom: 21px;
+}
+
+.conditions_for_studios {
+    width: 100%;
+    flex-flow: row wrap;
+    margin-bottom: 20px;
+}
+
+.conditions_for_studios div:nth-of-type(1), .conditions_for_studios div:nth-of-type(2) {
+    flex-flow: column nowrap;
+    align-items: center;
+    flex: 1 1 calc(50% - 20px);
+    padding: 0;
+    padding: 27px 0 10px 0;
+    margin: 0;
+    margin-right: 20px;
+    margin-bottom: 33px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.conditions_for_studios div:nth-of-type(2) {
+    margin: 0;
+    margin-bottom: 33px;
+}
+
+.conditions_for_studios img {
+    width: 65.22px;
+    height: 77.97px;
+    margin-top: 14px;
+}
+
+.conditions_for_studios p {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.conditions_for_studios div:nth-of-type(3) {
+    margin: 0;
+    padding: 39px 24px 22px 43px;
+    border-radius: 10px;
+}
+
+.conditions_for_studios div:nth-of-type(3) img {
+    width: 93.1px;
+    height: 68.26px;
+}
+
+.for_studios a {
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+
+.for_studios a img {
+    width: 35.59px;
+    height: 6.88px;
+    margin-left: 15px;
+}
+
+.where_buy {
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.where_buy_text {
+    margin: 0;
+}
+
+.where_buy h2 {
+    margin-bottom: 8px;
+}
+
+.where_buy p {
+    margin-bottom: 24px;
+}
+
+.list_shops {
+    display: none;
+}
+
+footer {
+    width: 100%;
+}
+
+footer {
+    width: 100vw;
+    flex-flow: column nowrap;
+    margin-top: 73px;
+}
+
+.footer_links {
+    flex: 1 1 100%;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.footer_parthers {
+    flex: 1 1 100%;
+}
+
+.footer_info {
+    flex: 1 1 100%;
+}
+
+.footer_links div {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 0 0 47px 0;
+}
+
+.footer_links img:nth-of-type(1) {
+    display: initial;
+}
+
+.footer_links img:nth-of-type(2) {
+    display: none;
+}
+
+footer a {
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 17px;
+}
+
+.footer_parthers div{
+    align-items: center;
+    margin: 47px 0 30px 0%;
+}
+
+.footer_info .container {
+    align-items: center;
+    margin: 47px 0 20px 0;
+}
+
+.footer_info p {
+    margin-bottom: 16px;
+}
+
+.footer_info a:first-of-type {
+    width: 195px;
+    text-align: center;
+}
+
+.icons {
+    margin-bottom: 25px;
+}
+
+hr {
+    display: initial;
+}
